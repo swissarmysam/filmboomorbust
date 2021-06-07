@@ -4,7 +4,9 @@
   "description": "CT6015 Data Viz",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build:parcel": "parcel build *.html --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
   },
   "author": "Sam Rampling",
   "license": "MIT",
