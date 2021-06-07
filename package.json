@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build:parcel": "parcel build *.html --public-url ./",
-    "build": "npm run clean && npm run build:parcel"
+    "build:parcel": "parcel build index.html --public-url ./",
+    "build": "npm run clean && npm run build:parcel",
+    "clean": "rm -rf dist/*"
   },
   "author": "Sam Rampling",
   "license": "MIT",
