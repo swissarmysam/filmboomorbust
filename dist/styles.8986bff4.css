@@ -1,0 +1,155 @@
+.section {
+  margin: 0 !important;
+}
+
+.films {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas: "best versus worst" "details details details";
+}
+
+.best {
+  grid-area: best;
+  display: grid;
+}
+
+.versus {
+  grid-area: versus;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  align-items: center;
+}
+
+.yearContainer {
+  background-color: #677B83;
+  color: #FCF6E2;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: grid;
+}
+
+.year {
+  justify-self: center;
+  align-self: center;
+}
+
+.worst {
+  grid-area: worst;
+  display: grid;
+}
+
+.posterContainer {
+  grid-area: poster;
+  position: relative;
+  width: 200px;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.92);
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 95%;
+  width: 96%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #677B83;
+}
+
+.posterContainer:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #FCF6E2;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.filmDetails {
+  grid-area: details;
+}
+
+.filmDetails > table {
+  width: 100%;
+  font-size: 1.2rem;
+  table-layout:fixed;
+}
+
+table td {
+  padding: 0.55rem 0 0.55rem 0 !important;
+}
+
+table td {
+  text-align: center !important;
+  
+}
+
+table td.label {
+  width: 15%;
+  font-weight: bold;
+  font-size: 0.85rem;
+  border: 0 !important;
+}
+
+table td.info {
+  width: 42.5%;
+}
+
+table td.score {
+  font-weight: bold;
+  font-size: 1.25rem !important;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
+}
+
+.left > img {
+  width: 75%;
+}
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+  display: grid;
+  align-content: center;
+}
+
+.little {
+  margin-top: 5rem;
+  font-size: 1rem;
+}
+
+/** CONDITIONAL STUFF */
+.winner {
+  background-color: rgba(6, 109, 6, 0.315);
+}
+.loser {
+  background-color: rgba(255, 0, 0, 0.315);
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */

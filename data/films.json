@@ -1,0 +1,506 @@
+{
+  "2000": {
+    "best": {
+      "title": "Gladiator",
+      "score": 0.85,
+      "plot": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "budget": 103000000,
+      "revenue": 465380802,
+      "runTime": "2h 35m",
+      "releaseDate": "May 12, 2000",
+      "genre": ["Action", "Adventure", "Drama"],
+      "rating": "15"
+    },
+    "worst": {
+      "title": "Battlefield Earth",
+      "score": 0.25,
+      "plot": "It's the year 3000 A.D., and the Earth is lost to the alien race of Psychlos. Humanity is enslaved by these gold-thirsty tyrants, who are unaware that their 'man-animals' are about to ignite the rebellion of a lifetime.",
+      "budget": 73000000,
+      "revenue": 29725663,
+      "runTime": "1h 58m",
+      "releaseDate": "June 2, 2000",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "rating": "12"
+    }
+  },
+  "2001": {
+    "best": {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "score": 0.88,
+      "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "budget": 93000000,
+      "revenue": 897690072,
+      "runTime": "2h 58m",
+      "releaseDate": "December 19, 2001",
+      "genre": ["Action", "Adventure", "Drama", "Fantasy"],
+      "rating": "PG"
+    },
+    "worst": {
+      "title": "Glitter",
+      "score": 0.23,
+      "plot": "A young singer dates a disc jockey who helps her get into the music business, but their relationship become complicated as she ascends to super stardom.",
+      "budget": 22000000,
+      "revenue": 5271666,
+      "runTime": "1h 44m",
+      "releaseDate": "November 23, 2001",
+      "genre": ["Drama", "Music", "Romance"],
+      "rating": "PG"
+    }
+  },
+  "2002": {
+    "best": {
+      "title": "The Lord of the Rings: The Two Towers",
+      "score": 0.87,
+      "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+      "budget": 94000000,
+      "revenue": 947495095,
+      "runTime": "2h 59m",
+      "releaseDate": "December 18, 2002",
+      "genre": ["Action", "Adventure", "Drama", "Fantasy"],
+      "rating": "12A"
+    },
+    "worst": {
+      "title": "Rollerball",
+      "score": 0.31,
+      "plot": "The big thing in 2005 is a violent sport which can have some pretty serious consequences... like dying.",
+      "budget": 70000000,
+      "revenue": 25852764,
+      "runTime": "1h 38m",
+      "releaseDate": "June 28, 2002",
+      "genre": ["Action", "Sci-Fi", "Sport"],
+      "rating": "15"
+    }
+  },
+  "2003": {
+    "best": {
+      "title": "The Lord of the Rings: The Return of the King",
+      "score": 0.89,
+      "plot": "The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth.",
+      "budget": 94000000,
+      "revenue": 1146030912,
+      "runTime": "3h 21m",
+      "releaseDate": "December 17, 2003",
+      "genre": ["Action", "Adventure", "Drama", "Fantasy"],
+      "rating": "12A"
+    },
+    "worst": {
+      "title": "House of the Dead",
+      "score": 0.21,
+      "plot": "A group of college students travels to a mysterious island to attend a rave, which is soon taken over by bloodthirsty zombies.",
+      "budget": 12000000,
+      "revenue": 13818181,
+      "runTime": "1h 30m",
+      "releaseDate": "October 29, 2003",
+      "genre": ["Action", "Adventure", "Horror"],
+      "rating": "15"
+    }
+  },
+  "2004": {
+    "best": {
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "score": 0.83,
+      "plot": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",
+      "budget": 20000000,
+      "revenue": 74036715,
+      "runTime": "1h 48m",
+      "releaseDate": "April 30, 2004",
+      "genre": ["Drama", "Romance", "Sci-Fi"],
+      "rating": "15"
+    },
+    "worst": {
+      "title": "Catwoman",
+      "score": 0.34,
+      "plot": "A shy woman, endowed with the speed, reflexes, and senses of a cat, walks a thin line between criminal and hero, even as a detective doggedly pursues her, fascinated by both of her personas.",
+      "budget": 100000000,
+      "revenue": 82102379,
+      "runTime": "1h 44m",
+      "releaseDate": "August 13, 2004",
+      "genre": ["Action", "Crime", "Fantasy"],
+      "rating": "12A"
+    }
+  },
+  "2005": {
+    "best": {
+      "title": "Batman Begins",
+      "score": 0.82,
+      "plot": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+      "budget": 150000000,
+      "revenue": 373661946,
+      "runTime": "2h 20m",
+      "releaseDate": "June 16, 2005",
+      "genre": ["Action", "Adventure"],
+      "rating": "12A"
+    },
+    "worst": {
+      "title": "Son of the Mask",
+      "score": 0.22,
+      "plot": "Tim Avery finds himself in a predicament when his dog stumbles upon the mask of Loki. Then after conceiving an infant son 'born of the mask', he discovers just how looney child raising can be.",
+      "budget": 84000000,
+      "revenue": 59981548,
+      "runTime": "1h 34m",
+      "releaseDate": "February 11, 2005",
+      "genre": ["Comedy", "Family", "Fantasy"],
+      "rating": "PG"
+    }
+  },
+  "2006": {
+    "best": {
+      "title": "The Departed",
+      "score": 0.85,
+      "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+      "budget": 90000000,
+      "revenue": 291465373,
+      "runTime": "2h 31m",
+      "releaseDate": "October 6, 2006",
+      "genre": ["Crime", "Drama", "Thriller"],
+      "rating": "18"
+    },
+    "worst": {
+      "title": "Date Movie",
+      "score": 0.28,
+      "plot": "Spoof of romantic comedies which focuses on a man, his crush, his parents, and her father.",
+      "budget": 20000000,
+      "revenue": 85749034,
+      "runTime": "1h 23m",
+      "releaseDate": "February 24, 2006",
+      "genre": ["Comedy", "Romance"],
+      "rating": "12A"
+    }
+  },
+  "2007": {
+    "best": {
+      "title": "There Will Be Blood",
+      "score": 0.82,
+      "plot": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
+      "budget": 25000000,
+      "revenue": 76182388,
+      "runTime": "2h 38m",
+      "releaseDate": "December 30, 2007",
+      "genre": ["Drama"],
+      "rating": "12A"
+    },
+    "worst": {
+      "title": "Epic Movie",
+      "score": 0.24,
+      "plot": "A spoof on previous years' epic movies, 4 orphans are on an epic adventure",
+      "budget": 20000000,
+      "revenue": 87238158,
+      "runTime": "1h 26m",
+      "releaseDate": "February 9, 2007",
+      "genre": ["Adventure", "Comedy", "Fantasy"],
+      "rating": "12A"
+    }
+  },
+  "2008": {
+    "best": {
+      "title": "The Dark Knight",
+      "score": 0.9,
+      "plot": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest tests of his ability to fight injustice.",
+      "budget": 185000000,
+      "revenue": 1005973645,
+      "runTime": "2h 32m",
+      "releaseDate": "July 20, 2008",
+      "genre": ["Action", "Crime", "Drama"],
+      "rating": "12A"
+    },
+    "worst": {
+      "title": "Disaster Movie",
+      "score": 0.19,
+      "plot": "Over the course of one evening, an unsuspecting group of twenty-somethings find themselves bombarded by a series of natural disasters and catastrophic events.",
+      "budget": 20000000,
+      "revenue": 34816824,
+      "runTime": "1h 27m",
+      "releaseDate": "September 5, 2008",
+      "genre": ["Comedy", "Sci-Fi"],
+      "rating": "12A"
+    }
+  },
+  "2009": {
+    "best": {
+      "title": "Inglourious Basterds",
+      "score": 0.83,
+      "plot": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+      "budget": 70000000,
+      "revenue": 321457747,
+      "runTime": "2h 33m",
+      "releaseDate": "August 19, 2009",
+      "genre": ["Adventure", "Drama", "War"],
+      "rating": "18"
+    },
+    "worst": {
+      "title": "S. Darko",
+      "score": 0.36,
+      "plot": "Donnie Darko's little sister Samantha and her best friend Corey are on a cross-country road trip, but soon find themselves entangled in a dangerous glitch in the time-space continuum.",
+      "budget": 4000000,
+      "revenue": 1079949,
+      "runTime": "1h 43m",
+      "releaseDate": "August 21, 2009",
+      "genre": ["Drama", "Mystery", "Sci-Fi"],
+      "rating": "15"
+    }
+  },
+  "2010": {
+    "best": {
+      "title": "Inception",
+      "score": 0.88,
+      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "budget": 160000000,
+      "revenue": 836836967,
+      "runTime": "2h 28m",
+      "releaseDate": "July 16, 2010",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "rating": "12A"
+    },
+    "worst": {
+      "title": "Vampires Suck",
+      "score": 0.34,
+      "plot": "A spoof of vampire-themed movies. Becca finds herself torn between 2 boys. As she and her friends wrestle with a number of different dramas, everything comes to a head at their prom",
+      "budget": 20000000,
+      "revenue": 80547866,
+      "runTime": "1h 22m",
+      "releaseDate": "October 15, 2010",
+      "genre": ["Comedy", "Family", "Horror"],
+      "rating": "PG-13"
+    }
+  },
+  "2011": {
+    "best": {
+      "title": "Warrior",
+      "score": 0.81,
+      "plot": "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament",
+      "budget": 25000000,
+      "revenue": 23308615,
+      "runTime": "2h 20m",
+      "releaseDate": "September 23, 2011",
+      "genre": ["Action", "Drama", "Sport"],
+      "rating": "12A"
+    },
+    "worst": {
+      "title": "Jack and Jill",
+      "score": 0.33,
+      "plot": "Family guy Jack Sadelstein prepares for the annual event he dreads: the Thanksgiving visit of his fraternal twin sister, the needy and passive-aggressive Jill, who then refuses to leave.",
+      "budget": 79000000,
+      "revenue": 149673788,
+      "runTime": "1h 31m",
+      "releaseDate": "February 3, 2012",
+      "genre": ["Comedy"],
+      "rating": "PG"
+    }
+  },
+  "2012": {
+    "best": {
+      "title": "Django Unchained",
+      "score": 0.84,
+      "plot": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+      "budget": 100000000,
+      "revenue": 426074373,
+      "runTime": "2h 45m",
+      "releaseDate": "December 30, 2012",
+      "genre": ["Drama", "Western"],
+      "rating": "18"
+    },
+    "worst": {
+      "title": "Piranha 3DD",
+      "score": 0.37,
+      "plot": "After the events at Lake Victoria, the pre-historic school of blood-thirsty piranhas make their way into a newly opened waterpark.",
+      "budget": 5000000,
+      "revenue": 8518634,
+      "runTime": "1h 23m",
+      "releaseDate": "May 11, 2012",
+      "genre": ["Comedy", "Horror"],
+      "rating": "18"
+    }
+  },
+  "2013": {
+    "best": {
+      "title": "The Wolf of Wall Street",
+      "score": 0.82,
+      "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+      "budget": 100000000,
+      "revenue": 392000694,
+      "runTime": "3h",
+      "releaseDate": "December 29, 2013",
+      "genre": ["Biography", "Drama", "Crime"],
+      "rating": "18"
+    },
+    "worst": {
+      "title": "Scary Movie 5",
+      "score": 0.35,
+      "plot": "A couple begin to experience some unusual activity after bringing their lost nieces and nephew home. With the help of home cameras, they learn they're being stalked by a nefarious demon.",
+      "budget": 20000000,
+      "revenue": 78378744,
+      "runTime": "1h 28m",
+      "releaseDate": "April 12, 2013",
+      "genre": ["Comedy"],
+      "rating": "15"
+    }
+  },
+  "2014": {
+    "best": {
+      "title": "Interstellar",
+      "score": 0.86,
+      "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "budget": 165000000,
+      "revenue": 701729206,
+      "runTime": "2h 49m",
+      "releaseDate": "November 9, 2014",
+      "genre": ["Adventure", "Drama", "Sci-Fi"],
+      "rating": "12A"
+    },
+    "worst": {
+      "title": "Kirk Cameron's Saving Christmas",
+      "score": 0.14,
+      "plot": "His annual Christmas party faltering thanks to his cynical brother-in-law, Kirk Cameron attempts to save the day by showing him that Jesus Christ remains a crucial component of the holiday.",
+      "budget": 500000,
+      "revenue": 2800000,
+      "runTime": "1h 19m",
+      "releaseDate": "14 November, 2014",
+      "genre": ["Comedy", "Family"],
+      "rating": "PG"
+    }
+  },
+  "2015": {
+    "best": {
+      "title": "Mad Max: Fury Road",
+      "score": 0.81,
+      "plot": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+      "budget": 150000000,
+      "revenue": 376097421,
+      "runTime": "2h",
+      "releaseDate": "May 14, 2015",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "rating": "15"
+    },
+    "worst": {
+      "title": "The Human Centipede III",
+      "score": 0.27,
+      "plot": "Taking inspiration from The Human Centipede films, the warden of a notorious and troubled prison looks to create a 500-person human centipede as a solution to his problems.",
+      "budget": 1824981,
+      "revenue": 18976,
+      "runTime": "1h 42m",
+      "releaseDate": "July 10, 2015",
+      "genre": ["Comedy", "Horror"],
+      "rating": "18"
+    }
+  },
+  "2016": {
+    "best": {
+      "title": "Hacksaw Ridge",
+      "score": 0.81,
+      "plot": "World War II American Army Medic Desmond T. Doss refuses to kill people and becomes the first man in American history to receive the Medal of Honor without firing a shot.",
+      "budget": 40000000,
+      "revenue": 180563636,
+      "runTime": "2h 19m",
+      "releaseDate": "November 6, 2016",
+      "genre": ["Biography", "Drama", "History"],
+      "rating": "15"
+    },
+    "worst": {
+      "title": "Fifty Shades of Black",
+      "score": 0.35,
+      "plot": "An inexperienced college student meets a wealthy businessman whose sexual practices put a strain on their relationship.",
+      "budget": 5000000,
+      "revenue": 22227514,
+      "runTime": "1h 32m",
+      "releaseDate": "January 31, 2016",
+      "genre": ["Comedy"],
+      "rating": "18"
+    }
+  },
+  "2017": {
+    "best": {
+      "title": "Coco",
+      "score": 0.84,
+      "plot": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+      "budget": 175000000,
+      "revenue": 807817888,
+      "runTime": "1h 45m",
+      "releaseDate": "November 26, 2017",
+      "genre": ["Animation", "Adventure", "Drama"],
+      "rating": "PG"
+    },
+    "worst": {
+      "title": "The Emoji Movie",
+      "score": 0.33,
+      "plot": "Gene, a multi-expressional emoji, sets out on a journey to become a normal emoji.",
+      "budget": 50000000,
+      "revenue": 217776646,
+      "runTime": "1h 26m",
+      "releaseDate": "August 4, 2017",
+      "genre": ["Animation", "Adventure", "Comedy"],
+      "rating": "U"
+    }
+  },
+  "2018": {
+    "best": {
+      "title": "Avengers: Infinity War",
+      "score": 0.84,
+      "plot": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+      "budget": 321000000,
+      "revenue": 2048359754,
+      "runTime": "2h 29m",
+      "releaseDate": "April 29, 2018",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "rating": "12A"
+    },
+    "worst": {
+      "title": "Slender Man",
+      "score": 0.32,
+      "plot": "In a small town in Massachusetts, a group of friends, fascinated by the internet lore of the Slender Man, attempt to prove that he doesn't actually exist - until one goes missing.",
+      "budget": 10000000,
+      "revenue": 51738549,
+      "runTime": "1h 33m",
+      "releaseDate": "August 24, 2018",
+      "genre": ["Horror", "Mystery", "Thriller"],
+      "rating": "15"
+    }
+  },
+  "2019": {
+    "best": {
+      "title": "Parasite",
+      "score": 0.86,
+      "plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "budget": 11400000,
+      "revenue": 258908069,
+      "runTime": "2h 12m",
+      "releaseDate": "October 13, 2019",
+      "genre": ["Comedy", "Drama", "Thriller"],
+      "rating": "15"
+    },
+    "worst": {
+      "title": "Cats",
+      "score": 0.28,
+      "plot": "A tribe of cats called the Jellicles must decide yearly which one will ascend to the Heaviside Layer and come back to a new Jellicle life.",
+      "budget": 95000000,
+      "revenue": 73833531,
+      "runTime": "1h 50m",
+      "releaseDate": "December 20, 2019",
+      "genre": ["Comedy", "Drama", "Family", "Musical"],
+      "rating": "U"
+    }
+  },
+  "2020": {
+    "best": {
+      "title": "Soul",
+      "score": 0.81,
+      "plot": "After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.",
+      "budget": 150000000,
+      "revenue": 118333781,
+      "runTime": "1h 40m",
+      "releaseDate": "December 25, 2020",
+      "genre": ["Animation", "Comedy", "Music"],
+      "rating": "PG"
+    },
+    "worst": {
+      "title": "Hard Kill",
+      "score": 0.33,
+      "plot": "The work of billionaire tech CEO Donovan Chalmers is so valuable that he hires mercenaries to protect it, and a terrorist group kidnaps his daughter just to get it.",
+      "budget": 7000000,
+      "revenue": 111523,
+      "runTime": "1h 38m",
+      "releaseDate": "September 14, 2020",
+      "genre": ["Action", "Thriller"],
+      "rating": "15"
+    }
+  }
+}
