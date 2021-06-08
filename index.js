@@ -1,11 +1,9 @@
 import Reveal from 'reveal.js';
-import ProgressBar from 'progressbar.js';
-import CountUp from 'countup.js';
 import data from './data/films.json';
 
-let deck = new Reveal({
-  plugins: []
-})
+const deck = new Reveal({
+  plugins: [],
+});
 deck.initialize();
 
 // get elements
@@ -13,8 +11,8 @@ const filmsSection = document.querySelector('#films');
 const megaMoneyEl = document.querySelector('#megaMoney');
 
 /** Get JSON data */
-for (let [key, val] of Object.entries(data)) {
-  createHTML(key, val)
+for (const [key, val] of Object.entries(data)) {
+  createHTML(key, val);
 }
 
 /** */
@@ -25,7 +23,9 @@ async function createHTML(key, val) {
   <div class="films">
     <div class="best">
       <div class="posterContainer">
-        <img src="http://image.tmdb.org/t/p/w500/${await getPoster(val.best.title)}">
+        <img src="http://image.tmdb.org/t/p/w500/${await getPoster(
+          val.best.title
+        )}">
         <div class="overlay">
           <div class="text">${val.best.plot}</div>
         </div>
@@ -33,7 +33,9 @@ async function createHTML(key, val) {
     </div>
     <div class="worst">
       <div class="posterContainer">
-        <img src="http://image.tmdb.org/t/p/w500/${await getPoster(val.worst.title)}">
+        <img src="http://image.tmdb.org/t/p/w500/${await getPoster(
+          val.worst.title
+        )}">
         <div class="overlay">
           <div class="text">${val.worst.plot}</div>
         </div>
@@ -62,26 +64,40 @@ async function createHTML(key, val) {
           <td class="info">${val.worst.rating}</td>
         </tr>
         <tr>
-          <td class="info ${val.best.runTime > val.worst.runTime ? 'winner' : 'loser'}">${val.best.runTime}</td>
+          <td class="info ${
+            val.best.runTime > val.worst.runTime ? 'winner' : 'loser'
+          }">${val.best.runTime}</td>
           <td class="label">Run Time</td>
-          <td class="info ${val.best.runTime < val.worst.runTime ? 'winner' : 'loser'}">${val.worst.runTime}</td>
+          <td class="info ${
+            val.best.runTime < val.worst.runTime ? 'winner' : 'loser'
+          }">${val.worst.runTime}</td>
         </tr>
         <tr>
-          <td class="info ${val.best.budget > val.worst.budget ? 'winner' : 'loser'}">USD$${val.best.budget}</td>
+          <td class="info ${
+            val.best.budget > val.worst.budget ? 'winner' : 'loser'
+          }">USD$${val.best.budget}</td>
           <td class="label">Budget</td>
-          <td class="info ${val.best.budget < val.worst.budget ? 'winner' : 'loser'}">USD$${val.worst.budget}</budget>
+          <td class="info ${
+            val.best.budget < val.worst.budget ? 'winner' : 'loser'
+          }">USD$${val.worst.budget}</budget>
         </tr>
         <tr>
-          <td class="info ${val.best.revenue - val.best.budget > 0 ? 'winner' : 'loser'}">USD$${val.best.revenue}</td>
+          <td class="info ${
+            val.best.revenue - val.best.budget > 0 ? 'winner' : 'loser'
+          }">USD$${val.best.revenue}</td>
           <td class="label">Revenue</td>
-          <td class="info ${val.worst.revenue - val.worst.budget > 0 ? 'winner' : 'loser'}">USD$${val.worst.revenue}</td>
+          <td class="info ${
+            val.worst.revenue - val.worst.budget > 0 ? 'winner' : 'loser'
+          }">USD$${val.worst.revenue}</td>
         </tr>
         <tr>
-          <td class="info score ${val.best.score > val.worst.score ? 'winner' : 'loser'}">${(val.best.score *
-            10).toFixed(1)}</td>
+          <td class="info score ${
+            val.best.score > val.worst.score ? 'winner' : 'loser'
+          }">${(val.best.score * 10).toFixed(1)}</td>
           <td class="label">Viewer Rating</td>
-          <td class="info score ${val.best.score < val.worst.score ? 'winner' : 'loser'}">${(val.worst.score *
-            10).toFixed(1)}</td>
+          <td class="info score ${
+            val.best.score < val.worst.score ? 'winner' : 'loser'
+          }">${(val.worst.score * 10).toFixed(1)}</td>
         </tr>
       </table>
     </div>

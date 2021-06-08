@@ -151,5 +151,15 @@ table td.score {
   background-color: rgba(255, 0, 0, 0.315);
 }
 
+.chartContainer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#ratingsChart {
+  height: 480px !important;
+  width: 600px !important;
+}
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */

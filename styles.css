@@ -150,3 +150,14 @@ table td.score {
 .loser {
   background-color: rgba(255, 0, 0, 0.315);
 }
+
+.chartContainer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#ratingsChart {
+  height: 480px !important;
+  width: 600px !important;
+}
